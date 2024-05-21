@@ -1,0 +1,42 @@
+body{
+  background-color: #dce6fd;
+}
+.display{
+  border: 1vw solid #9ca8ff;
+  border-radius: 1.5vw;
+  background-color: #acceff;
+  height: 10vw;
+  grid-area: display;
+  padding: 1%;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  word-break: break-word;
+  font-size: 5vw;
+  margin: 1% 0;
+  color: #023047
+
+}
+
+.app{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-rows: auto;
+  grid-template-areas: "display display display display display";
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90vw;
+
+
+}
+
+.app button{
+  font-size: 5vw;
+  height: 8vw;
+  border: 0.4vw solid #C8B6FF;
+  border-radius: 1vw;
+  margin: 1%;
+  background-color: #FFD6FF;
+  color: #023047
+
+}
